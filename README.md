@@ -20,5 +20,3 @@ myImageLoader.setHandler(handler).setTaskNumber(1).setMaxThread(30);
             myImageLoader.loads(imageUrls[i]);
         }
 ```
-## Now bug
-- If URL from last 9 to 5,maybe using cache in loading many images will have bug.
